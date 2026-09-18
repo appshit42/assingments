@@ -1,0 +1,357 @@
+$date
+	Tue Sep 01 09:11:08 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module rpa_16_tb $end
+$var wire 1 ! cout $end
+$var wire 16 " sum [15:0] $end
+$var reg 16 # a [15:0] $end
+$var reg 16 $ b [15:0] $end
+$var reg 1 % cin $end
+$scope module uut $end
+$var wire 16 & a [15:0] $end
+$var wire 16 ' b [15:0] $end
+$var wire 17 ( carry [16:0] $end
+$var wire 1 ) cin $end
+$var wire 1 ! cout $end
+$var wire 16 * sum [15:0] $end
+$scope begin rca[0] $end
+$scope module fa $end
+$var wire 1 + a $end
+$var wire 1 , b $end
+$var wire 1 - cin $end
+$var wire 1 . cout $end
+$var wire 1 / sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[1] $end
+$scope module fa $end
+$var wire 1 0 a $end
+$var wire 1 1 b $end
+$var wire 1 2 cin $end
+$var wire 1 3 cout $end
+$var wire 1 4 sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[2] $end
+$scope module fa $end
+$var wire 1 5 a $end
+$var wire 1 6 b $end
+$var wire 1 7 cin $end
+$var wire 1 8 cout $end
+$var wire 1 9 sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[3] $end
+$scope module fa $end
+$var wire 1 : a $end
+$var wire 1 ; b $end
+$var wire 1 < cin $end
+$var wire 1 = cout $end
+$var wire 1 > sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[4] $end
+$scope module fa $end
+$var wire 1 ? a $end
+$var wire 1 @ b $end
+$var wire 1 A cin $end
+$var wire 1 B cout $end
+$var wire 1 C sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[5] $end
+$scope module fa $end
+$var wire 1 D a $end
+$var wire 1 E b $end
+$var wire 1 F cin $end
+$var wire 1 G cout $end
+$var wire 1 H sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[6] $end
+$scope module fa $end
+$var wire 1 I a $end
+$var wire 1 J b $end
+$var wire 1 K cin $end
+$var wire 1 L cout $end
+$var wire 1 M sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[7] $end
+$scope module fa $end
+$var wire 1 N a $end
+$var wire 1 O b $end
+$var wire 1 P cin $end
+$var wire 1 Q cout $end
+$var wire 1 R sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[8] $end
+$scope module fa $end
+$var wire 1 S a $end
+$var wire 1 T b $end
+$var wire 1 U cin $end
+$var wire 1 V cout $end
+$var wire 1 W sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[9] $end
+$scope module fa $end
+$var wire 1 X a $end
+$var wire 1 Y b $end
+$var wire 1 Z cin $end
+$var wire 1 [ cout $end
+$var wire 1 \ sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[10] $end
+$scope module fa $end
+$var wire 1 ] a $end
+$var wire 1 ^ b $end
+$var wire 1 _ cin $end
+$var wire 1 ` cout $end
+$var wire 1 a sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[11] $end
+$scope module fa $end
+$var wire 1 b a $end
+$var wire 1 c b $end
+$var wire 1 d cin $end
+$var wire 1 e cout $end
+$var wire 1 f sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[12] $end
+$scope module fa $end
+$var wire 1 g a $end
+$var wire 1 h b $end
+$var wire 1 i cin $end
+$var wire 1 j cout $end
+$var wire 1 k sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[13] $end
+$scope module fa $end
+$var wire 1 l a $end
+$var wire 1 m b $end
+$var wire 1 n cin $end
+$var wire 1 o cout $end
+$var wire 1 p sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[14] $end
+$scope module fa $end
+$var wire 1 q a $end
+$var wire 1 r b $end
+$var wire 1 s cin $end
+$var wire 1 t cout $end
+$var wire 1 u sum $end
+$upscope $end
+$upscope $end
+$scope begin rca[15] $end
+$scope module fa $end
+$var wire 1 v a $end
+$var wire 1 w b $end
+$var wire 1 x cin $end
+$var wire 1 y cout $end
+$var wire 1 z sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0z
+0y
+0x
+0w
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+1W
+0V
+1U
+0T
+0S
+0R
+1Q
+1P
+1O
+0N
+0M
+1L
+0K
+1J
+1I
+1H
+0G
+0F
+0E
+1D
+1C
+0B
+1A
+0@
+0?
+0>
+1=
+1<
+1;
+0:
+09
+18
+07
+16
+15
+14
+03
+02
+01
+10
+0/
+0.
+0-
+0,
+0+
+b100110010 *
+0)
+b110011000 (
+b11001100 '
+b1100110 &
+0%
+b11001100 $
+b1100110 #
+b100110010 "
+0!
+$end
+#10
+0<
+0P
+08
+0L
+b100010000 (
+19
+1M
+0>
+0R
+b101110110 "
+b101110110 *
+06
+0J
+1:
+1N
+b10001000 $
+b10001000 '
+b11101110 #
+b11101110 &
+#20
+1<
+1P
+18
+1L
+09
+0M
+17
+1K
+0W
+13
+1G
+0A
+0U
+0=
+1F
+0Q
+12
+1>
+0C
+1B
+1R
+1.
+1,
+11
+0;
+1@
+1E
+0O
+1/
+b10101011 "
+b10101011 *
+1+
+0:
+1?
+0N
+1-
+b110011 $
+b110011 '
+b1110111 #
+b1110111 &
+1%
+b11101111 (
+1)
+#30
+0K
+0G
+0>
+0F
+0R
+04
+1H
+0<
+0B
+0P
+0/
+19
+08
+1C
+0M
+b110100 "
+b110100 *
+0L
+b111 (
+01
+0E
+0+
+05
+0?
+0I
+b10001 $
+b10001 '
+b100010 #
+b100010 &
+#40
