@@ -1,0 +1,57 @@
+## =========================================================
+## Nexys A7 - 100 MHz Clock
+## =========================================================
+set_property PACKAGE_PIN E3 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+
+create_clock -period 10.000 \
+             -name sys_clk_pin \
+             -waveform {0.000 5.000} \
+             [get_ports clk]
+
+
+## =========================================================
+## Reset - Active LOW
+## Use CPU reset button (BTNC)
+## =========================================================
+set_property PACKAGE_PIN U18 [get_ports rst]
+set_property IOSTANDARD LVCMOS33 [get_ports rst]
+
+
+## =========================================================
+## SW0 -> sel
+## =========================================================
+set_property PACKAGE_PIN J15 [get_ports sel]
+set_property IOSTANDARD LVCMOS33 [get_ports sel]
+
+
+## =========================================================
+## SW1-SW4 -> seed[3:0]
+## =========================================================
+set_property PACKAGE_PIN L16 [get_ports {seed[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {seed[0]}]
+
+set_property PACKAGE_PIN M13 [get_ports {seed[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {seed[1]}]
+
+set_property PACKAGE_PIN R15 [get_ports {seed[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {seed[2]}]
+
+set_property PACKAGE_PIN R17 [get_ports {seed[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {seed[3]}]
+
+
+## =========================================================
+## LED0-LED3
+## =========================================================
+set_property PACKAGE_PIN H17 [get_ports {state[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {state[0]}]
+
+set_property PACKAGE_PIN K15 [get_ports {state[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {state[1]}]
+
+set_property PACKAGE_PIN J13 [get_ports {state[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {state[2]}]
+
+set_property PACKAGE_PIN N14 [get_ports {state[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {state[3]}]
